@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets - never commit
+.env
+*.key
+*.pem
+*.pfx
+credentials*
+secrets*
+
+# Lab data
+*.pcap
+*.pcapng
+*.log
+!sample*.log
+
+# Private notes
+notes-private/
